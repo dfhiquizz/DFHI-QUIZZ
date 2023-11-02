@@ -17,23 +17,26 @@
               href="https://www.facebook.com/"
               target="_blank"
               aria-label="Besuchen Sie uns auf Facebook "
-              ><img :src="facebookIcon" :title="facebookTitle"
+              ><img src="/src/assets/facebook.svg" title="Besuchen Sie uns auf Facebook"
             /></a>
+            
           </li>
           <li>
             <a
               href="https://www.linkedin.com/"
               target="_blank"
               aria-label="Besuchen Sie uns auf Linkedin"
-              ><img :src="linkedinIcon" :title="linkedinTitle" />
+              ><img src="/src/assets/linkedin.svg" title="Besuchen Sie uns auf Linkedin" />
             </a>
+            
           </li>
           <li>
             <a
               href="https://www.twitter.com/"
               target="_blank"
               aria-label="Besuchen Sie uns auf Twitter"
-              ><img :src="twitterIcon" :title="twitterTitle" />
+              ><img src="/src/assets/twitter.svg" title="zu Oben" />
+         
             </a>
           </li>
         </ul>
@@ -43,7 +46,7 @@
     <div class="row">
       <div class="horizontal-line">
         <a href="#">
-          <img :src="chevronUpIcon" :title="chevronUpTitle" />
+          <img src="/src/assets/chevron-up.svg" :title="chevronUpTitle" />
         </a>
       </div>
       <div class="copyright">
@@ -56,17 +59,7 @@
 </template>
 
 <script setup>
-const facebookIcon = "../src/assets/facebook-svgrepo-com.svg";
-const facebookTitle = "Besuchen Sie uns auf Facebook";
 
-const twitterIcon = "../src/assets/twitter-svgrepo-com.svg";
-const twitterTitle = "Besuchen Sie uns auf Twitter";
-
-const linkedinIcon = "../src/assets/linkedin-svgrepo-com.svg";
-const linkedinTitle = "Besuchen Sie uns auf Linkedin";
-
-const chevronUpIcon = "../src/assets/chevron-up-svgrepo-com.svg";
-const chevronUpTitle = "zu Oben";
 </script>
 
 <style lang="scss" scoped>
