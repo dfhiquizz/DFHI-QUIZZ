@@ -18,14 +18,14 @@ describe('test QuizFooter', () => {
         
     })
 
-    it('create functional social media links',() =>{
+    it('should render functional social media links',() =>{
         expect(wrapper.find('a[href="https://www.facebook.com/"][target="_blank"][ aria-label="Besuchen Sie uns auf Facebook "]').exists()).toBe(true)
         expect(wrapper.find('a[href="https://www.linkedin.com/"][target="_blank"][aria-label= "Besuchen Sie uns auf Linkedin"]').exists()).toBe(true)
         expect(wrapper.find('a[href="https://www.twitter.com/"][target="_blank"][aria-label= "Besuchen Sie uns auf Twitter"]').exists()).toBe(true)
        
     })
 
-    it('create classes',() =>{
+    it('should render  classes',() =>{
         const copyrightMessage = "Copyright © 2023 DFHI-Quizz . Alle Rechte vorbehalten. Dieses Material ist nur für den Bildungsgebrauch bestimmt, sofern nicht anders angegeben.";
         const socialMediaMessage = "Folgen Sie uns";
         expect(wrapper.find('.active').exists()).toBe(true);
@@ -39,6 +39,6 @@ describe('test QuizFooter', () => {
     })
 
 
-
+   
   
 })

@@ -35,7 +35,7 @@
               href="https://www.twitter.com/"
               target="_blank"
               aria-label="Besuchen Sie uns auf Twitter"
-              ><img src="/src/assets/twitter.svg" title="zu Oben" />
+              ><img src="/src/assets/twitter.svg" title="Besuchen Sie uns auf Twitter" />
          
             </a>
           </li>
@@ -46,7 +46,7 @@
     <div class="row">
       <div class="horizontal-line">
         <a href="#">
-          <img src="/src/assets/chevron-up.svg" :title="chevronUpTitle" />
+          <img src="/src/assets/chevron-up.svg" title="to up" />
         </a>
       </div>
       <div class="copyright">

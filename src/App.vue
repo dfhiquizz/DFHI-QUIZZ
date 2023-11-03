@@ -1,9 +1,11 @@
 <script setup>
+import WelcomePage from "./components/WelcomePage.vue";
 import QuizFooter from "./components/QuizFooter.vue";
 </script>
 
 <template>
   <div id="wrap">
+    <WelcomePage/>
     <QuizFooter />
   </div>
 </template>
@@ -62,7 +64,14 @@ import QuizFooter from "./components/QuizFooter.vue";
  
 */
 
-@media (min-width: 1025px) and (max-width: 1280px) {}
+@media (min-width: 1025px) and (max-width: 1280px) {
+  #wrap{
+
+  width: 96%;
+  }
+}
+
+
 
 /* 
    Desktops
