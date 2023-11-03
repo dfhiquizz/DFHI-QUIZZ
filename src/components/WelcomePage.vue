@@ -5,7 +5,7 @@ const star = "../src/assets/etoile.svg";
 <template>
   <div class="container-bubbles-stars">
     <div class="isfatesLogo">
-      <img class="logo" src="/src/assets/Dfhi_Isfates_Logo.svg" title="imageDFHILogo" />
+      <img class="logo" src="/src/assets/Dfhilogo.svg" title="imageDFHILogo" />
 
       <a href="/AllQuiz">
         <button class="start-quizz-button">Start Quiz</button>
