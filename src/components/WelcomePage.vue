@@ -1,12 +1,11 @@
 <script setup>
 const star = "../src/assets/etoile.svg";
-const isfatesLogo = "../src/assets/Dfhi_Isfates_Logo.svg";
 </script>
 
 <template>
   <div class="container-bubbles-stars">
     <div class="isfatesLogo">
-      <img class="logo" v-bind:src="isfatesLogo" :title="imageTitle" />
+      <img class="logo" src="/src/assets/Dfhi_Isfates_Logo.svg" title="imageDFHILogo" />
 
       <a href="/AllQuiz">
         <button class="start-quizz-button">Start Quiz</button>
@@ -14,7 +13,7 @@ const isfatesLogo = "../src/assets/Dfhi_Isfates_Logo.svg";
     </div>
     <div class="bubbles-stars">
       <span class="img1" style="--i: 11">
-        <img v-bind:src="star" :title="star"
+        <img src="/src/assets/etoile.svg" title="star"
       /></span>
       <span style="--i: 12"
         ><img v-bind:src="star" :title="image1Title"

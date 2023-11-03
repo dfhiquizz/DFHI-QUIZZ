@@ -21,13 +21,20 @@ describe('test WelcomePage', () => {
     it('should render the number of spans correctly', () => {
         
         const span = wrapper.find('span')
-        expect((span).html()).toHaveLength(150)     
+        expect((span).html()).toHaveLength(128)     
         
        
     })
    
- 
+    it('should render link AllQuiz correctly', () => {
+        
+          
+        
+    expect(wrapper.find('a[href="/AllQuiz"]').exists()).toBe(true)
+        
+       
+    })
+   
   
-
   
 })
