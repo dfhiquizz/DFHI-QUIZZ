@@ -8,25 +8,9 @@ body {
   background: #173f52;
   font-family: "Rambla", sans-serif;
   position: relative;
-  @media (min-width: 320px) and (max-width: 480px) {
-    padding: 0 24px 55px 24px;
-  }
-  @media (min-width: 481px) and (max-width: 768px) {
-    padding: 0 80px 55px 80px;
-  }
+  height: 100vh;
+}
 
-  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-    padding: 0 120px 55px 120px;
-  }
-  @media (min-width: 768px) and (max-width: 1024px) {
-    padding: 0 120px 55px 120px;
-  }
-
-  @media (min-width: 1025px) and (max-width: 1280px) {
-    padding: 0 200px 55px 200px;
-  }
-  @media (min-width: 1281px) {
-    padding: 0 240px 55px 240px;
-
-  }
+#app{
+  height: 100vh;
 }

@@ -158,7 +158,7 @@
 
 @media (max-width: 320px) {
   #footer {
-    width: 320px;
+    
     padding: 20px 24px 10px 24px;
     font-size: 14px;
     .socialMedia {
@@ -190,6 +190,9 @@
   }
 }
 
+@media (max-width: 320px) {
+
+}
 /* 
    Most of the Smartphones Mobiles (Portrait)
   
