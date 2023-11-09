@@ -1,5 +1,4 @@
 <script setup>
-const star = "../src/assets/etoile.svg";
 </script>
 
 <template>

@@ -18,8 +18,6 @@
 </template>
 
 <script setup>
-const homeIcon = "../src/assets/home-house-property-svgrepo-com.svg";
-const homeTitle = "to up ";
 </script>
 
 <style lang="scss" scoped>

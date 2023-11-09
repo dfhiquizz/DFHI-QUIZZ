@@ -16,7 +16,7 @@ const routes = [
   {
     path: "/Essai4",
     name: "Essai4",
-    component: () => import("../components/Essai4.vue"),
+    //component: () => import("../components/Essai4.vue"),
   },
   {
     path: "/AboutUs",

@@ -4,8 +4,14 @@
     <div class="container-links-socialMedia">
       <div class="links">
         <router-link to="/AboutUs"> Über uns </router-link> |
-        <a href="/" class="active" title="">Github</a> |
-        <router-link to="/Copyright"> Datenschutz </router-link> |
+        <a
+          href="https://github.com/dfhiquizz/DFHI-QUIZZ.git"
+          class="active"
+          target="_blank"
+          title="Github"
+          >Github</a
+        >
+        | <router-link to="/Copyright"> Datenschutz </router-link> |
         <router-link to="/Essai4"> Kontakt </router-link>
       </div>
 

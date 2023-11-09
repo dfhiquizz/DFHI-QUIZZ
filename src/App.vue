@@ -1,7 +1,5 @@
 <script setup>
-import WelcomePage from "./components/WelcomePage.vue";
 
-import Essai3 from "./components/CopyrightDfhi.vue";
 import QuizFooter from "./components/QuizFooter.vue";
 </script>
 
