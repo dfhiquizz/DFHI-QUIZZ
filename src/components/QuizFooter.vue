@@ -3,9 +3,9 @@
   <div id="footer">
     <div class="container-links-socialMedia">
       <div class="links">
-        <router-link to="/Essai"> Über uns </router-link> |
+        <router-link to="/AboutUs"> Über uns </router-link> |
         <a href="/" class="active" title="">Github</a> |
-        <router-link to="/Essai3"> Datenschutz </router-link> |
+        <router-link to="/Copyright"> Datenschutz </router-link> |
         <router-link to="/Essai4"> Kontakt </router-link>
       </div>
 
@@ -17,26 +17,31 @@
               href="https://www.facebook.com/"
               target="_blank"
               aria-label="Besuchen Sie uns auf Facebook "
-              ><img src="/src/assets/facebook.svg" title="Besuchen Sie uns auf Facebook"
+              ><img
+                src="/src/assets/facebook.svg"
+                title="Besuchen Sie uns auf Facebook"
             /></a>
-            
           </li>
           <li>
             <a
               href="https://www.linkedin.com/"
               target="_blank"
               aria-label="Besuchen Sie uns auf Linkedin"
-              ><img src="/src/assets/linkedin.svg" title="Besuchen Sie uns auf Linkedin" />
+              ><img
+                src="/src/assets/linkedin.svg"
+                title="Besuchen Sie uns auf Linkedin"
+              />
             </a>
-            
           </li>
           <li>
             <a
               href="https://www.twitter.com/"
               target="_blank"
               aria-label="Besuchen Sie uns auf Twitter"
-              ><img src="/src/assets/twitter.svg" title="Besuchen Sie uns auf Twitter" />
-         
+              ><img
+                src="/src/assets/twitter.svg"
+                title="Besuchen Sie uns auf Twitter"
+              />
             </a>
           </li>
         </ul>
@@ -59,7 +64,6 @@
 </template>
 
 <script setup>
-
 </script>
 
 <style lang="scss" scoped>
@@ -148,6 +152,7 @@
       }
     }
     .copyright {
+      text-align: center;
       color: #ccc;
       width: 100%;
       font-weight: 400;
@@ -158,7 +163,6 @@
 
 @media (max-width: 320px) {
   #footer {
-    
     padding: 20px 24px 10px 24px;
     font-size: 14px;
     .socialMedia {
@@ -171,6 +175,8 @@
       ul {
         display: flex;
         list-style: none;
+
+        flex-direction: column;
 
         li {
           a {
@@ -191,7 +197,6 @@
 }
 
 @media (max-width: 320px) {
-
 }
 /* 
    Most of the Smartphones Mobiles (Portrait)
@@ -235,9 +240,9 @@
 */
 
 @media (min-width: 481px) and (max-width: 767px) {
-  #footer{
+  #footer {
     font-size: 14px;
-       .socialMedia {
+    .socialMedia {
       p {
         position: relative;
         width: 100%;

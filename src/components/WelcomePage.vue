@@ -11,9 +11,9 @@ const star = "../src/assets/etoile.svg";
           src="/src/assets/Dfhilogo.svg"
           title="imageDFHILogo"
         />
-        <a href="/AllQuiz">
+       <router-link class="homeIcon" to="/AllQuiz">
           <button class="start-quizz-button">Start Quiz</button>
-        </a>
+        </router-link>
       </div>
     </div>
     <div class="bubbles-stars">
@@ -21,217 +21,217 @@ const star = "../src/assets/etoile.svg";
         <img src="/src/assets/etoile.svg" title="star"
       /></span>
       <span style="--i: 12"
-        ><img v-bind:src="star" :title="image1Title"
+        ><img src="/src/assets/etoile.svg" title="star"
       /></span>
       <span style="--i: 24"
-        ><img v-bind:src="star" :title="image1Title"
+        ><img src="/src/assets/etoile.svg" title="star"
       /></span>
       <span style="--i: 10"
-        ><img v-bind:src="star" :title="image1Title"
+        ><img src="/src/assets/etoile.svg" title="star"
       /></span>
       <span style="--i: 14"
-        ><img v-bind:src="star" :title="image1Title"
+        ><img src="/src/assets/etoile.svg" title="star"
       /></span>
       <span style="--i: 23"
-        ><img v-bind:src="star" :title="image1Title"
+        ><img src="/src/assets/etoile.svg" title="star"
       /></span>
       <span style="--i: 18"
-        ><img v-bind:src="star" :title="image1Title"
+        ><img src="/src/assets/etoile.svg" title="star"
       /></span>
       <span style="--i: 16"
-        ><img v-bind:src="star" :title="image1Title"
+        ><img src="/src/assets/etoile.svg" title="star"
       /></span>
       <span style="--i: 19"
-        ><img v-bind:src="star" :title="image1Title"
+        ><img src="/src/assets/etoile.svg" title="star"
       /></span>
       <span style="--i: 20"
-        ><img v-bind:src="star" :title="image1Title"
+        ><img src="/src/assets/etoile.svg" title="star"
       /></span>
       <span style="--i: 22"
-        ><img v-bind:src="star" :title="image1Title"
+        ><img src="/src/assets/etoile.svg" title="star"
       /></span>
       <span style="--i: 25"
-        ><img v-bind:src="star" :title="image1Title"
+        ><img src="/src/assets/etoile.svg" title="star"
       /></span>
       <span style="--i: 19"
-        ><img v-bind:src="star" :title="image1Title"
+        ><img src="/src/assets/etoile.svg" title="star"
       /></span>
       <span style="--i: 21"
-        ><img v-bind:src="star" :title="image1Title"
+        ><img src="/src/assets/etoile.svg" title="star"
       /></span>
       <span style="--i: 15"
-        ><img v-bind:src="star" :title="image1Title"
+        ><img src="/src/assets/etoile.svg" title="star"
       /></span>
       <span style="--i: 13"
-        ><img v-bind:src="star" :title="image1Title"
+        ><img src="/src/assets/etoile.svg" title="star"
       /></span>
       <span style="--i: 26"
-        ><img v-bind:src="star" :title="image1Title"
+        ><img src="/src/assets/etoile.svg" title="star"
       /></span>
       <span style="--i: 17"
-        ><img v-bind:src="star" :title="image1Title"
+        ><img src="/src/assets/etoile.svg" title="star"
       /></span>
       <span style="--i: 13"
-        ><img v-bind:src="star" :title="image1Title"
+        ><img src="/src/assets/etoile.svg" title="star"
       /></span>
       <span style="--i: 28"
-        ><img v-bind:src="star" :title="image1Title"
+        ><img src="/src/assets/etoile.svg" title="star"
       /></span>
       <span style="--i: 32"
-        ><img v-bind:src="star" :title="image1Title"
+        ><img src="/src/assets/etoile.svg" title="star"
       /></span>
       <span style="--i: 37"
-        ><img v-bind:src="star" :title="image1Title"
+        ><img src="/src/assets/etoile.svg" title="star"
       /></span>
       <span style="--i: 30"
-        ><img v-bind:src="star" :title="image1Title"
+        ><img src="/src/assets/etoile.svg" title="star"
       /></span>
       <span style="--i: 35"
-        ><img v-bind:src="star" :title="image1Title"
+        ><img src="/src/assets/etoile.svg" title="star"
       /></span>
       <span style="--i: 33"
-        ><img v-bind:src="star" :title="image1Title"
+        ><img src="/src/assets/etoile.svg" title="star"
       /></span>
       <span style="--i: 29"
-        ><img v-bind:src="star" :title="image1Title"
+        ><img src="/src/assets/etoile.svg" title="star"
       /></span>
       <span style="--i: 31"
-        ><img v-bind:src="star" :title="image1Title"
+        ><img src="/src/assets/etoile.svg" title="star"
       /></span>
       <span style="--i: 39"
-        ><img v-bind:src="star" :title="image1Title"
+        ><img src="/src/assets/etoile.svg" title="star"
       /></span>
       <span style="--i: 47"
-        ><img v-bind:src="star" :title="image1Title"
+        ><img src="/src/assets/etoile.svg" title="star"
       /></span>
       <span style="--i: 41"
-        ><img v-bind:src="star" :title="image1Title"
+        ><img src="/src/assets/etoile.svg" title="star"
       /></span>
       <span style="--i: 38"
-        ><img v-bind:src="star" :title="image1Title"
+        ><img src="/src/assets/etoile.svg" title="star"
       /></span>
       <span style="--i: 34"
-        ><img v-bind:src="star" :title="image1Title"
+        ><img src="/src/assets/etoile.svg" title="star"
       /></span>
       <span style="--i: 44"
-        ><img v-bind:src="star" :title="image1Title"
+        ><img src="/src/assets/etoile.svg" title="star"
       /></span>
       <span style="--i: 15"
-        ><img v-bind:src="star" :title="image1Title"
+        ><img src="/src/assets/etoile.svg" title="star"
       /></span>
       <span style="--i: 50"
-        ><img v-bind:src="star" :title="image1Title"
+        ><img src="/src/assets/etoile.svg" title="star"
       /></span>
       <span style="--i: 45"
-        ><img v-bind:src="star" :title="image1Title"
+        ><img src="/src/assets/etoile.svg" title="star"
       /></span>
       <span style="--i: 48"
-        ><img v-bind:src="star" :title="image1Title"
+        ><img src="/src/assets/etoile.svg" title="star"
       /></span>
       <span style="--i: 46"
-        ><img v-bind:src="star" :title="image1Title"
+        ><img src="/src/assets/etoile.svg" title="star"
       /></span>
       <span style="--i: 43"
-        ><img v-bind:src="star" :title="image1Title"
+        ><img src="/src/assets/etoile.svg" title="star"
       /></span>
       <span style="--i: 59"
-        ><img v-bind:src="star" :title="image1Title"
+        ><img src="/src/assets/etoile.svg" title="star"
       /></span>
       <span style="--i: 55"
-        ><img v-bind:src="star" :title="image1Title"
+        ><img src="/src/assets/etoile.svg" title="star"
       /></span>
       <span style="--i: 51"
-        ><img v-bind:src="star" :title="image1Title"
+        ><img src="/src/assets/etoile.svg" title="star"
       /></span>
       <span style="--i: 58"
-        ><img v-bind:src="star" :title="image1Title"
+        ><img src="/src/assets/etoile.svg" title="star"
       /></span>
       <span style="--i: 54"
-        ><img v-bind:src="star" :title="image1Title"
+        ><img src="/src/assets/etoile.svg" title="star"
       /></span>
       <span style="--i: 53"
-        ><img v-bind:src="star" :title="image1Title"
+        ><img src="/src/assets/etoile.svg" title="star"
       /></span>
       <span style="--i: 50"
-        ><img v-bind:src="star" :title="image1Title"
+        ><img src="/src/assets/etoile.svg" title="star"
       /></span>
       <span style="--i: 52"
-        ><img v-bind:src="star" :title="image1Title"
+        ><img src="/src/assets/etoile.svg" title="star"
       /></span>
       <span style="--i: 57"
-        ><img v-bind:src="star" :title="image1Title"
+        ><img src="/src/assets/etoile.svg" title="star"
       /></span>
       <span style="--i: 60"
-        ><img v-bind:src="star" :title="image1Title"
+        ><img src="/src/assets/etoile.svg" title="star"
       /></span>
       <span style="--i: 89"
-        ><img v-bind:src="star" :title="image1Title"
+        ><img src="/src/assets/etoile.svg" title="star"
       /></span>
       <span style="--i: 90"
-        ><img v-bind:src="star" :title="image1Title"
+        ><img src="/src/assets/etoile.svg" title="star"
       /></span>
       <span style="--i: 79"
-        ><img v-bind:src="star" :title="image1Title"
+        ><img src="/src/assets/etoile.svg" title="star"
       /></span>
       <span style="--i: 75"
-        ><img v-bind:src="star" :title="image1Title"
+        ><img src="/src/assets/etoile.svg" title="star"
       /></span>
       <span style="--i: 73"
-        ><img v-bind:src="star" :title="image1Title"
+        ><img src="/src/assets/etoile.svg" title="star"
       /></span>
       <span style="--i: 87"
-        ><img v-bind:src="star" :title="image1Title"
+        ><img src="/src/assets/etoile.svg" title="star"
       /></span>
       <span style="--i: 88"
-        ><img v-bind:src="star" :title="image1Title"
+        ><img src="/src/assets/etoile.svg" title="star"
       /></span>
       <span style="--i: 38"
-        ><img v-bind:src="star" :title="image1Title"
+        ><img src="/src/assets/etoile.svg" title="star"
       /></span>
       <span style="--i: 81"
-        ><img v-bind:src="star" :title="image1Title"
+        ><img src="/src/assets/etoile.svg" title="star"
       /></span>
       <span style="--i: 71"
-        ><img v-bind:src="star" :title="image1Title"
+        ><img src="/src/assets/etoile.svg" title="star"
       /></span>
       <span style="--i: 85"
-        ><img v-bind:src="star" :title="image1Title"
+        ><img src="/src/assets/etoile.svg" title="star"
       /></span>
       <span style="--i: 82"
-        ><img v-bind:src="star" :title="image1Title"
+        ><img src="/src/assets/etoile.svg" title="star"
       /></span>
       <span style="--i: 76"
-        ><img v-bind:src="star" :title="image1Title"
+        ><img src="/src/assets/etoile.svg" title="star"
       /></span>
       <span style="--i: 73"
-        ><img v-bind:src="star" :title="image1Title"
+        ><img src="/src/assets/etoile.svg" title="star"
       /></span>
       <span style="--i: 72"
-        ><img v-bind:src="star" :title="image1Title"
+        ><img src="/src/assets/etoile.svg" title="star"
       /></span>
       <span style="--i: 84"
-        ><img v-bind:src="star" :title="image1Title"
+        ><img src="/src/assets/etoile.svg" title="star"
       /></span>
       <span style="--i: 78"
-        ><img v-bind:src="star" :title="image1Title"
+        ><img src="/src/assets/etoile.svg" title="star"
       /></span>
       <span style="--i: 86"
-        ><img v-bind:src="star" :title="image1Title"
+        ><img src="/src/assets/etoile.svg" title="star"
       /></span>
       <span style="--i: 74"
-        ><img v-bind:src="star" :title="image1Title"
+        ><img src="/src/assets/etoile.svg" title="star"
       /></span>
       <span style="--i: 80"
-        ><img v-bind:src="star" :title="image1Title"
+        ><img src="/src/assets/etoile.svg" title="star"
       /></span>
       <span style="--i: 83"
-        ><img v-bind:src="star" :title="image1Title"
+        ><img src="/src/assets/etoile.svg" title="star"
       /></span>
       <span style="--i: 77"
-        ><img v-bind:src="star" :title="image1Title"
+        ><img src="/src/assets/etoile.svg" title="star"
       /></span>
       <span style="--i: 70"
-        ><img v-bind:src="star" :title="image1Title"
+        ><img src="/src/assets/etoile.svg" title="star"
       /></span>
     </div>
   </div>
@@ -318,7 +318,7 @@ const star = "../src/assets/etoile.svg";
       }
       a {
         z-index: 3;
-        padding-top: 200px;
+        padding-top: 196px;
         padding-left: 26px;
         .start-quizz-button {
           //width: 80%;

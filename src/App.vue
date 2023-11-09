@@ -1,12 +1,15 @@
 <script setup>
 import WelcomePage from "./components/WelcomePage.vue";
+
+import Essai3 from "./components/CopyrightDfhi.vue";
 import QuizFooter from "./components/QuizFooter.vue";
 </script>
 
 <template>
 
   <div id="wrap">
-    <WelcomePage/>
+    <router-view/> 
+  <!--  <Essai3/> -->
     <QuizFooter/>
     
   </div>
@@ -23,8 +26,7 @@ import QuizFooter from "./components/QuizFooter.vue";
     left: 0;
     background: url(/src/assets/bg1.jpg) no-repeat left top #173d7b;
     background-size: cover;
-    
-    border-radius: 15px;
+    border-radius: 0 0 15px 15px;
     
   }
 
