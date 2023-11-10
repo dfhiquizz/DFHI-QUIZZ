@@ -26,6 +26,7 @@ const routes = [
   {
     path: "/AllQuiz",
     name: 'quizzes',
+    component: () => import("../webpage/DfhiQuizzes.vue"),
     //component: () => import("../pages/QuizzesPage.vue"),
   },
 

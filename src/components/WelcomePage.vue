@@ -2,6 +2,7 @@
 </script>
 
 <template>
+<div class="welcomePage-box">
   <div class="container-bubbles-stars">
     <div class="isfatesLogo">
       <div class="centered-image">
@@ -234,6 +235,7 @@
       /></span>
     </div>
   </div>
+</div>
 </template>
 
 <style lang="scss" scoped>

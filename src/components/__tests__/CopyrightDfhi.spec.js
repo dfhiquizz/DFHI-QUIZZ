@@ -3,18 +3,34 @@ import CopyrightDfhi from '../../components/CopyrightDfhi.vue'
 import {mount} from '@vue/test-utils'
 
 
-describe('test AboutUs', () => {
+describe('test CopyrightDfhi', () => {
+     expect(CopyrightDfhi).toBeTruthy();
     const wrapper = mount(CopyrightDfhi)
-    it('should render Classes correctly', () => {
+    const img = wrapper.find('img')
+    const copyrightMessage ="Name und Anschrift des Verantwortlichen Kontaktdaten des Datenschutzbeauftragten Allgemeines zur Datenverarbeitung Rechte der betroffenen Person Bereitstellung der Webseite. Verantwortlichen Der Verantwortliche im Sinne der Datenschutz-Grundverordnung (DSGVO) und anderer datenschutzrechtlicher Bestimmungen ist:"
+
+    it('should render classes correctly', () => {
      expect(wrapper.find('.container-data-privacy').exists()).toBe(true);
      expect(wrapper.find('.homeIcon').exists()).toBe(true);
      expect(wrapper.find('.infoDataPrivacy').exists()).toBe(true);
      expect(wrapper.find('.ContactPrivacy').exists()).toBe(true);
      expect(wrapper.find('.FooterContactPrivacy').exists()).toBe(true);
+    
+
+ })
+    it('should render Tags correctly', () => {
+     expect(img.element.src).toBe("/src/assets/home.svg");
+     expect(wrapper.find('h1').exists()).toBe(true);
+     expect(wrapper.find('h1').text()).toBe("Datenschutz");
+     expect(wrapper.find('.FooterContactPrivacy p').text()).toBe("DFHI-Quizz GmbH");
+     expect(img.element.title).toBe("to up");
+     expect(wrapper.find('p').text()).toBe(copyrightMessage)
+
     })
 
-    it('should rende p correctly', () => {
-          // expect(wrapper.find("p").text()).toBe('Ich bin Aboubacar Camara, Student am DFHI-ISFATES. Im Rahmen meiner Bachelorarbeit habe ich mich entschlossen, eine DFHI-Quiz-App zu entwickeln, mit der man seine verschiedenen Vorlesungen von 6. Semester spielerisch wiederholen kann. Wer möchte, kann diese Gelegenheit nutzen, um seine Prüfungen zu bestehen.');
-        
+    it('should render number of p and Router correctly', () => {
+            expect(wrapper.findAll('p')).toHaveLength(8)
+            expect(wrapper.find('router-link[to="/AllQuiz"]').exists()).toBe(true);   
+
      })
 })
