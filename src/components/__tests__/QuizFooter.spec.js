@@ -55,7 +55,7 @@ describe('test QuizFooter', () => {
       
         expect(wrapper.find('router-link[to="/AboutUs"]').exists()).toBe(true);        
         expect(wrapper.find('router-link[to="/Copyright"]').exists()).toBe(true);        
-        expect(wrapper.find('router-link[to="/Essai4"]').exists()).toBe(true);
+        expect(wrapper.find('router-link[to="/Kontakt"]').exists()).toBe(true);
 
 
 

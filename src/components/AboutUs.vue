@@ -59,4 +59,41 @@
     padding-top: 88px;
   }
 }
+
+@media (max-width: 320px) {
+ 
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .container-about-us {
+     width: 96%;
+     padding: 0 20px 20px 20px;
+
+  }
+ 
+}
+@media (min-width: 481px) and (max-width: 768px) {
+.container-about-us {
+  padding: 0 20px 20px 20px;
+}
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+.container-about-us {
+  padding: 0 20px 20px 20px;
+}
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+ .container-about-us {
+  padding: 0 20px 20px 20px;
+}
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+}
+@media (min-width: 1281px) {
+
+}
+
+
 </style>

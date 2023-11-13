@@ -7,7 +7,7 @@ import QuizFooter from "./components/QuizFooter.vue";
 
   <div id="wrap">
     <router-view/> 
-  <!--  <Essai3/> -->
+
     <QuizFooter/>
     
   </div>
@@ -17,6 +17,7 @@ import QuizFooter from "./components/QuizFooter.vue";
   #wrap {
     height: 100vh;
     display: flex;
+    overflow: hidden;
     flex-direction: column;
     margin: 0px auto;
     position: relative;
@@ -42,7 +43,7 @@ import QuizFooter from "./components/QuizFooter.vue";
 
 @media (min-width: 320px) and (max-width: 480px) {
     #wrap {
-      width: 78%;
+      width: 96%;
     }
 
 }
@@ -54,7 +55,7 @@ import QuizFooter from "./components/QuizFooter.vue";
 
 @media (min-width: 480px) and (max-width: 768px) {
     #wrap {
-      width: 76%;
+      width: 84%;
     }
 }
 
@@ -74,7 +75,7 @@ import QuizFooter from "./components/QuizFooter.vue";
 */
 @media (min-width: 768px) and (max-width: 1024px) {
     #wrap {
-      width: 68%;
+      width: 76%;
     }
 }
 
@@ -85,7 +86,7 @@ import QuizFooter from "./components/QuizFooter.vue";
 
 @media (min-width: 1025px) and (max-width: 1280px) {
     #wrap {
-      width: 68%;
+      width: 80%;
     }
 
 }
@@ -98,7 +99,7 @@ import QuizFooter from "./components/QuizFooter.vue";
 
 @media (min-width: 1281px) {
     #wrap {
-      width: 56%;
+      width: 68%;
     }
 } 
 </style>

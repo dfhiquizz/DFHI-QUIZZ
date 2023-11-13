@@ -2,7 +2,6 @@
 </script>
 
 <template>
-<div class="welcomePage-box">
   <div class="container-bubbles-stars">
     <div class="isfatesLogo">
       <div class="centered-image">
@@ -11,7 +10,7 @@
           src="/src/assets/Dfhilogo.svg"
           title="imageDFHILogo"
         />
-       <router-link class="homeIcon" to="/AllQuiz">
+        <router-link class="homeIcon" to="/AllQuiz">
           <button class="start-quizz-button">Start Quiz</button>
         </router-link>
       </div>
@@ -235,12 +234,11 @@
       /></span>
     </div>
   </div>
-</div>
 </template>
 
 <style lang="scss" scoped>
 .container-bubbles-stars {
-  height: calc(100vh - 30%);
+  //height: calc(100vh - 30%);
   position: relative;
   overflow: hidden;
   .isfatesLogo {
@@ -256,20 +254,22 @@
       .logo {
         //width: 50%;
       }
-      .start-quizz-button {
-        border-radius: 4px;
-        background: #05396b;
-        color: #fff;
-        border: 1px solid #05396b;
-        // font-size: 10pt;
-        font-weight: bold;
-        //height: 36px;
-
-        z-index: 3;
-        &:hover {
-          color: #000;
-          background: #fff;
+      .homeIcon {
+        .start-quizz-button {
+          border-radius: 4px;
+          background: #05396b;
+          color: #fff;
           border: 1px solid #05396b;
+          // font-size: 10pt;
+          font-weight: bold;
+          //height: 36px;
+
+          //z-index: 3;
+          &:hover {
+            color: #000;
+            background: #fff;
+            border: 1px solid #05396b;
+          }
         }
       }
     }
@@ -307,20 +307,24 @@
 }
 
 @media (max-width: 320px) {
- .container-bubbles-stars {
-    height: calc(100vh - 30%);
+  .container-bubbles-stars {
+    margin-top: 20px;
+    height: calc(100vh - 40%);
     padding-right: 4px;
     .centered-image {
       height: 50vh;
       .logo {
-        position: fixed;
+        // position: fixed;
         top: 90px;
         width: 236px;
       }
-      a {
-        z-index: 3;
-        padding-top: 196px;
-        padding-left: 26px;
+      .homeIcon {
+        position: absolute;
+        margin-top: 116px;
+        margin-left: 20px;
+        //z-index: 3;
+        // padding-top: 196px;
+        //padding-left: 26px;
         .start-quizz-button {
           //width: 80%;
           font-size: 12px;
@@ -341,22 +345,28 @@
   .container-bubbles-stars {
     height: calc(100vh - 30%);
     padding-right: 4px;
-    .centered-image {
-      height: 50vh;
-      .logo {
-        position: fixed;
-        top: 88px;
-        width: 250px;
-      }
-      a {
-        z-index: 3;
-        padding-top: 214px;
-        padding-left: 26px;
-        .start-quizz-button {
-          //width: 80%;
-          font-size: 12px;
-          padding: 4px 4px 4px 4px;
-          height: 24px;
+    .isfatesLogo {
+      padding-top: 36px;
+      .centered-image {
+        height: 50vh;
+        .logo {
+          //   position: fixed;
+          top: 88px;
+          width: 250px;
+        }
+        .homeIcon {
+          position: absolute;
+          margin-top: 121px;
+          margin-left: 20px;
+          // z-index: 3;
+          //  padding-top: 214px;
+          //  padding-left: 26px;
+          .start-quizz-button {
+            //width: 80%;
+            font-size: 12px;
+            padding: 4px 4px 4px 4px;
+            height: 24px;
+          }
         }
       }
     }
@@ -371,21 +381,27 @@
 @media (min-width: 480px) and (max-width: 768px) {
   .container-bubbles-stars {
     height: calc(100vh - 30%);
-    .centered-image {
-      height: 50vh;
-      .logo {
-        position: fixed;
-        top: 54px;
-        width: 330px;
-      }
-      a {
-        z-index: 3;
-        padding-top: 258px;
-        padding-left: 20px;
-        .start-quizz-button {
-          //width: 80%;
-          padding: 8px 8px 8px 8px;
-          height: 28px;
+    .isfatesLogo {
+      padding-top: 44px;
+      .centered-image {
+        height: 50vh;
+        .logo {
+          //  position: fixed;
+          top: 54px;
+          width: 330px;
+        }
+        .homeIcon {
+          position: absolute;
+          margin-top: 160px;
+          margin-left: 20px;
+          // z-index: 3;
+          // padding-top: 258px;
+          //  padding-left: 20px;
+          .start-quizz-button {
+            //width: 80%;
+            padding: 8px 8px 8px 8px;
+            height: 28px;
+          }
         }
       }
     }
@@ -398,21 +414,28 @@
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
   .container-bubbles-stars {
     height: calc(100vh - 30%);
-    .centered-image {
-      height: 50vh;
-      .logo {
-        position: fixed;
-        top: 18px;
-        width: 390px;
-      }
-      a {
-        z-index: 3;
-        padding-top: 264px;
-        padding-left: 20px;
-        .start-quizz-button {
-          //width: 80%;
-          padding: 8px 8px 8px 8px;
-          height: 28px;
+    .isfatesLogo {
+      padding-top: 50px;
+
+      .centered-image {
+        height: 50vh;
+        .logo {
+          // position: fixed;
+          top: 18px;
+          width: 390px;
+        }
+        .homeIcon {
+          position: absolute;
+          margin-top: 180px;
+          margin-left: 20px;
+          // z-index: 3;
+          // padding-top: 264px;
+          //  padding-left: 20px;
+          .start-quizz-button {
+            //width: 80%;
+            padding: 8px 8px 8px 8px;
+            height: 28px;
+          }
         }
       }
     }
@@ -426,21 +449,28 @@
 @media (min-width: 768px) and (max-width: 1024px) {
   .container-bubbles-stars {
     height: calc(100vh - 30%);
-    .centered-image {
-      height: 50vh;
-      .logo {
-        position: fixed;
-        top: 18px;
-        width: 390px;
-      }
-      a {
-        z-index: 3;
-        padding-top: 264px;
-        padding-left: 20px;
-        .start-quizz-button {
-          //width: 80%;
-          padding: 8px 8px 8px 8px;
-          height: 28px;
+    .isfatesLogo {
+      padding-top: 50px;
+
+      .centered-image {
+        height: 50vh;
+        .logo {
+          //position: fixed;
+          top: 18px;
+          width: 390px;
+        }
+        .homeIcon {
+          position: absolute;
+          margin-top: 180px;
+          margin-left: 20px;
+          //z-index: 3;
+          // padding-top: 264px;
+          //  padding-left: 20px;
+          .start-quizz-button {
+            //width: 80%;
+            padding: 8px 8px 8px 8px;
+            height: 28px;
+          }
         }
       }
     }
@@ -455,22 +485,28 @@
 @media (min-width: 1024px) and (max-width: 1280px) {
   .container-bubbles-stars {
     height: calc(100vh - 30%);
-    .centered-image {
-      height: 50vh;
-      .logo {
-        position: fixed;
-        top: 20px;
-        width: 400px;
-      }
-      a {
-        z-index: 3;
-        padding-top: 280px;
-        padding-left: 20px;
-        .start-quizz-button {
-          //width: 80%;
-          padding: 10px 12px 10px 12px;
-          height: 34px;
-          font-size: 12px;
+    .isfatesLogo {
+      padding-top: 50px;
+      .centered-image {
+        height: 50vh;
+        .logo {
+          //    position: fixed;
+          top: 20px;
+          width: 400px;
+        }
+        .homeIcon {
+          position: absolute;
+          margin-top: 180px;
+          margin-left: 20px;
+          // z-index: 3;
+          // padding-top: 280px;
+          //  padding-left: 20px;
+          .start-quizz-button {
+            //width: 80%;
+            padding: 10px 12px 10px 12px;
+            height: 34px;
+            font-size: 12px;
+          }
         }
       }
     }
@@ -484,22 +520,28 @@
 @media (min-width: 1280px) {
   .container-bubbles-stars {
     height: calc(100vh - 30%);
-    .centered-image {
-      height: 50vh;
-      .logo {
-        position: fixed;
-        top: 20px;
-        width: 400px;
-      }
-      a {
-        z-index: 3;
-        padding-top: 280px;
-        padding-left: 20px;
-        .start-quizz-button {
-          //width: 80%;
-          padding: 10px 12px 10px 12px;
-          height: 34px;
-          font-size: 15px;
+    .isfatesLogo {
+        padding-top: 58px;
+      .centered-image {
+        height: 50vh;
+        .logo {
+          //  position: fixed;
+          top: 20px;
+          width: 400px;
+        }
+        .homeIcon {
+          position: absolute;
+          margin-top: 180px;
+          margin-left: 20px;
+          //z-index: 3;
+          // padding-top: 280px;
+          // padding-left: 20px;
+          .start-quizz-button {
+            //width: 80%;
+            padding: 10px 12px 10px 12px;
+            height: 34px;
+            font-size: 12px;
+          }
         }
       }
     }

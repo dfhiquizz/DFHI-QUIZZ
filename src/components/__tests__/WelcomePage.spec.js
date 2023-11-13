@@ -12,7 +12,6 @@ describe('test WelcomePage', () => {
     const img = wrapper.find('img')
 
     it('should render classes correctly', () => {
-        expect(wrapper.find('.welcomePage-box').exists()).toBe(true);
         expect(wrapper.find('.container-bubbles-stars').exists()).toBe(true);
         expect(wrapper.find('.isfatesLogo').exists()).toBe(true);
         expect(wrapper.find('.centered-image').exists()).toBe(true);

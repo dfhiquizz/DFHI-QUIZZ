@@ -14,9 +14,9 @@ const routes = [
     component: () => import("../components/CopyrightDfhi.vue"),
   },
   {
-    path: "/Essai4",
-    name: "Essai4",
-    //component: () => import("../components/Essai4.vue"),
+    path: "/Kontakt",
+    name: "Kontakt",
+    component: () => import("../components/Kontakt.vue"),
   },
   {
     path: "/AboutUs",

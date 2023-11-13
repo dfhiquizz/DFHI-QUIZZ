@@ -12,7 +12,7 @@
           >Github</a
         >
         | <router-link to="/Copyright"> Datenschutz </router-link> |
-        <router-link to="/Essai4"> Kontakt </router-link>
+        <router-link to="/Kontakt"> Kontakt </router-link>
       </div>
 
       <div class="socialMedia">
@@ -181,8 +181,8 @@
       ul {
         display: flex;
         list-style: none;
-
-        flex-direction: column;
+        font-size: 1px;
+       // flex-direction: column;
 
         li {
           a {
@@ -202,8 +202,6 @@
   }
 }
 
-@media (max-width: 320px) {
-}
 /* 
    Most of the Smartphones Mobiles (Portrait)
   

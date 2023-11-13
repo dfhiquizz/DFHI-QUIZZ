@@ -35,7 +35,7 @@
   width: 90%;
   height: calc(100vh - 200px);
   margin: 0 auto;
-  padding: 0 30px 0 30px;
+  padding: 0 30px 20px 30px;
   overflow: auto;
 
   .homeIcon {
@@ -76,19 +76,21 @@
   }
 }
 @media (min-width: 320px) and (max-width: 480px) {
+  .container-data-privacy {
+    padding: 0 20px 20px 20px;
   h1 {
     font-size: 180%;
   }
   .ContactPrivacy {
-    font-size: 110%;
-  }
+    font-size: 90%;
+  }}
 }
 @media (min-width: 480px) and (max-width: 768px) {
   h1 {
     font-size: 190%;
   }
   .ContactPrivacy {
-    font-size: 114%;
+    font-size: 98%;
   }
 }
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
