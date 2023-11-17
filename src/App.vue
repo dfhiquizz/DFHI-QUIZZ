@@ -86,7 +86,7 @@ import QuizFooter from "./components/QuizFooter.vue";
 
 @media (min-width: 1025px) and (max-width: 1280px) {
     #wrap {
-      width: 80%;
+      width: 74%;
     }
 
 }
@@ -99,7 +99,7 @@ import QuizFooter from "./components/QuizFooter.vue";
 
 @media (min-width: 1281px) {
     #wrap {
-      width: 68%;
+      width: 64%;
     }
 } 
 </style>

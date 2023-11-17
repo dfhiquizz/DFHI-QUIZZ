@@ -1,16 +1,16 @@
 <template>
   <div class="dfhiLecture" @click="accessToSubjectQuestion">
-    <DfhiLectureBody :subjectName =  selectedSubject.name_subject :subjectImage = selectedSubject.image_subject :subjectQuestions = selectedSubject.questions_subject.length />
+    <DfhiLectureBody :lectureName =  selectedLecture.lectureName :lectureImage = selectedLecture.lectureImage :lectureQuestions = selectedLecture.lectureQuestions.length />
   </div>
 </template>
 
 <script setup>
 import { useRouter } from "vue-router";
 import DfhiLectureBody from "./DfhiLectureBody.vue";
-const { selectedSubject } = defineProps(["selectedSubject"]);
+const { selectedLecture } = defineProps(["selectedLecture"]);
 const routeToQuiz = useRouter();
 const accessToSubjectQuestion = () => {
-	routeToQuiz.push(`/dfhi-quiz/${selectedSubject.id_subject}`);
+	routeToQuiz.push(`/dfhi-quiz/${selectedLecture.lectureId}`);
 };
 
 

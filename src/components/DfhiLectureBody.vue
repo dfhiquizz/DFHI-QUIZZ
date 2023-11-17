@@ -1,14 +1,13 @@
 <template>
   <div class="dfhiLecturetBody">
-    <h1>{{ subjectName }}</h1>
-    <img :src="subjectImage" alt="SubjectImage" />
-    <h2>{{ subjectQuestions }} Fragen</h2>
+    <h1>{{ lectureName }}</h1>
+    <img :src="lectureImage" alt="lectureImage" />
+    <h2>{{ lectureQuestions }} Fragen</h2>
   </div>
 </template>
 
 <script setup>
-import { ref } from "vue";
-const props = defineProps(["subjectName", "subjectImage", "subjectQuestions"]);
+defineProps(["lectureName", "lectureImage", "lectureQuestions"]);
 </script>
 
 <style lang="scss" scoped>

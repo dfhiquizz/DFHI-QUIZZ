@@ -23,7 +23,7 @@ module.exports = {
             
         }
     ],
-    "ignorePatterns": ["src/**/*.jsx" ],
+    "ignorePatterns": ["DFHI-QUIZZ/playwright.config.js" ],
    
     "parserOptions": {
         "ecmaVersion": "latest",

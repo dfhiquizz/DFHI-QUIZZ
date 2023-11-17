@@ -8,7 +8,7 @@ const routes = [
     name: "WelcomePage",
     component: () => import("../components/WelcomePage.vue"),
   },
-   {
+  {
     path: "/Copyright",
     name: "Copyright",
     component: () => import("../components/CopyrightDfhi.vue"),
@@ -16,7 +16,7 @@ const routes = [
   {
     path: "/Kontakt",
     name: "Kontakt",
-    component: () => import("../components/Kontakt.vue"),
+    component: () => import("../components/KontaktUs.vue"),
   },
   {
     path: "/AboutUs",
@@ -29,6 +29,12 @@ const routes = [
     component: () => import("../webpage/DfhiQuizzes.vue"),
     //component: () => import("../pages/QuizzesPage.vue"),
   },
+
+  {
+    path: "/dfhi-quiz/:id",
+    name: 'dfhi-quiz',
+    component: () => import("../webpage/DfhiQuiz.vue")
+  }
 
 
 ];

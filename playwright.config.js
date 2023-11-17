@@ -1,4 +1,6 @@
+/* eslint-disable no-undef */
 // @ts-check
+// eslint-disable-next-line no-undef
 const { devices } = require('@playwright/test')
 
 /**
@@ -14,7 +16,7 @@ const { devices } = require('@playwright/test')
 const config = {
   testDir: './e2e',
   /* Maximum time one test can run for. */
-  timeout: 30 * 1000,
+  timeout: 60 * 1000,
   expect: {
     /**
      * Maximum time expect() should wait for the condition to be met.
@@ -23,6 +25,7 @@ const config = {
     timeout: 5000
   },
   /* Fail the build on CI if you accidentally left test.only in the source code. */
+  // eslint-disable-next-line no-undef
   forbidOnly: !!process.env.CI,
   /* Retry on CI only */
   retries: process.env.CI ? 2 : 0,

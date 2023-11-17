@@ -1,7 +1,6 @@
 import { describe, it, expect } from 'vitest'
 import WelcomePage from '../../components/WelcomePage.vue'
 import { mount } from '@vue/test-utils'
-import VueRouter from '../../router/index.js';
 
 
 

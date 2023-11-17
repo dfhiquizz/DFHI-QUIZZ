@@ -4,7 +4,7 @@ import { mount, } from '@vue/test-utils'
 
 describe('test AboutUs', () => {
     expect(DfhiLectureHeader).toBeTruthy();
-    const testProps = "testProps";
+    
     const wrapper = mount(DfhiLectureHeader, {
         propsData: {
             modelValue : 'testProps'

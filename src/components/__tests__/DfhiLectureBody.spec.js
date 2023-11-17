@@ -6,9 +6,9 @@ describe('test DfhiLectureBody ', () => {
     expect(DfhiLectureBody).toBeTruthy();
     const wrapper = mount(DfhiLectureBody,{
         propsData: {
-            subjectName : 'testName',
-            subjectImage : 'testImg',
-            subjectQuestions :'testQuestion',
+            lectureName : 'testName',
+            lectureImage : 'testImg',
+            lectureQuestions :'testQuestion',
           }
     });
     it('should render Classes correctly', () => {
@@ -22,16 +22,16 @@ describe('test DfhiLectureBody ', () => {
         expect(wrapper.find("h1").exists()).toBe(true);
         expect(wrapper.find("img").exists()).toBe(true);
         expect(wrapper.find("h2").exists()).toBe(true);
-        expect(wrapper.find('img').element.alt).toBe("SubjectImage");
+        expect(wrapper.find('img').element.alt).toBe("lectureImage");
         expect(wrapper.find("h2").text()).toBe('testQuestion Fragen');
 
     })
 
     it('should render props correctly', () => {
  
-        expect(wrapper.vm.subjectName).toBe('testName')
-        expect(wrapper.vm.subjectImage).toBe('testImg')
-        expect(wrapper.vm.subjectQuestions).toBe('testQuestion')
+        expect(wrapper.vm.lectureName).toBe('testName')
+        expect(wrapper.vm.lectureImage).toBe('testImg')
+        expect(wrapper.vm.lectureQuestions).toBe('testQuestion')
 
     })
 })

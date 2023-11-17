@@ -4,11 +4,11 @@
 
 <div class="container-dfhiLecture">
 
-  <div class="ChoicesSubjects">
+  <div class="ChoicesLectures">
     <DfhiLecture
-      v-for="selectedSubject in Subjects"
-      :key="selectedSubject.id_subject"
-      :selectedSubject="selectedSubject"
+      v-for="selectedLecture in lectures"
+      :key="selectedLecture.lectureId"
+      :selectedLecture="selectedLecture"
     />
   </div>
 
@@ -19,13 +19,13 @@
 <script setup>
 import DfhiLectureHeader from "../components/DfhiLectureHeader.vue";
 import DfhiLecture from "../components/DfhiLecture.vue";
-import { onMounted, ref, watch } from "vue";
-import Subject_data from "../data/QuizData.json";
+import Lectures_data from "../data/QuizData.json";
+import {  ref, watch } from "vue";
 const search = ref("");
-const Subjects = ref(Subject_data);
-const Research = watch(search, () => {
-  Subjects.value = Subject_data.filter((selectedSubject) =>
-    selectedSubject.name_subject.toLowerCase().includes(search.value.toLowerCase())
+const lectures = ref(Lectures_data);
+watch(search, () => {
+  lectures.value = Lectures_data.filter((selectedLecture) =>
+    selectedLecture.lectureName.toLowerCase().includes(search.value.toLowerCase())
   );
 });
 
@@ -36,7 +36,7 @@ const Research = watch(search, () => {
 .container-dfhiLecture{
 height: calc(100vh - 30%);
 overflow-y: overlay;
-.ChoicesSubjects {
+.ChoicesLectures {
   display: flex;
   flex-wrap: wrap;
   flex-basis: 35%;
