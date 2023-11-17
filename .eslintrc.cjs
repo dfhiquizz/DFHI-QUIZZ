@@ -1,4 +1,5 @@
 module.exports = {
+    "root": true,
     "env": {
         "browser": true,
         "es2021": true
@@ -13,13 +14,17 @@ module.exports = {
                 "node": true
             },
             "files": [
-                ".eslintrc.{js,cjs}"
+                "src/**/*.{js,vue,jsx,cjs,mjs, }", 
             ],
+            "excludedFiles": ["main.js"],
             "parserOptions": {
                 "sourceType": "script"
-            }
+            },
+            
         }
     ],
+    "ignorePatterns": ["src/**/*.jsx" ],
+   
     "parserOptions": {
         "ecmaVersion": "latest",
         "sourceType": "module"
@@ -28,5 +33,5 @@ module.exports = {
         "vue"
     ],
     "rules": {
-    }
+    },
 }
