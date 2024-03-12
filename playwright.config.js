@@ -1,8 +1,9 @@
 /* eslint-disable no-undef */
-// @ts-check
+// @ts-nocheck
 // eslint-disable-next-line no-undef
-const { devices } = require('@playwright/test')
 
+// @ts-ignore
+import { defineConfig, devices } from '@playwright/test'
 /**
  * Read environment variables from file.
  * https://github.com/motdotla/dotenv
@@ -13,7 +14,7 @@ const { devices } = require('@playwright/test')
  * @see https://playwright.dev/docs/test-configuration
  * @type {import('@playwright/test').PlaywrightTestConfig}
  */
-const config = {
+export default defineConfig({
   testDir: './e2e',
   /* Maximum time one test can run for. */
   timeout: 60 * 1000,
@@ -110,6 +111,5 @@ const config = {
     port: 5173,
     reuseExistingServer: !process.env.CI
   }
-}
+})
 
-module.exports = config
