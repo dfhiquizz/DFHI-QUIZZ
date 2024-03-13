@@ -11,7 +11,7 @@
     "prebuild": "eslint .",
     "build": "vite build",
     "preview": "vite preview",
-    "postbuild": "npx playwright install && npx playwright test "
+    "postbuild": "npx playwright install && sudo npx playwright install-deps && npx playwright test "
   },
   "dependencies": {
     "@vue/test-utils": "^2.4.1",
