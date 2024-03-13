@@ -42,7 +42,7 @@
 </template>
 
 <script setup>
-import { defineProps, defineEmits, ref, computed } from "vue";
+import { defineProps, defineEmits} from "vue";
 
 // on definit ce quon souhaite envoyé
 const emit = defineEmits(["selectChoice", "ClickNext", "ClickRestart"]);

@@ -5,7 +5,7 @@ import { ref, computed } from "vue";
 
 import Lectures_data from "../data/QuizData.json";
 
-const isActive = ref(false);
+//const isActive = ref(false);
 
 const lectureId = parseInt(useRoute().params.id);
 const quiz = Lectures_data.find((a) => a.lectureId === lectureId);
@@ -14,8 +14,8 @@ const ClickedchoiceId = ref(0);
 const valueDisabled = ref(false);
 const numberOfCorrectAnswers = ref(0);
 
-const showResults = ref(false);
-const showRatioQuestions = ref(true);
+//const showResults = ref(false);
+//const showRatioQuestions = ref(true);
 const backgroundColor = ref("blue");
 
 const onChoiceSelected = (isCorrect, iD) => {

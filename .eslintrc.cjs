@@ -17,18 +17,13 @@ module.exports = {
                 "src/**/*.{js,vue,jsx,cjs,mjs, }", 
             ],
             "excludedFiles": ["main.js"],
-            "parserOptions": {
-                "sourceType": "script"
-            },
+          
             
         }
     ],
     "ignorePatterns": ["DFHI-QUIZZ/playwright.config.js" ],
    
-    "parserOptions": {
-        "ecmaVersion": "latest",
-        "sourceType": "module"
-    },
+  
     "plugins": [
         "vue"
     ],

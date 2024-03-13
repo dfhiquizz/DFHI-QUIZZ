@@ -11,7 +11,7 @@
     "prebuild": "eslint .",
     "build": "vite build",
     "preview": "vite preview",
-    "postbuild": "playwright test"
+    "postbuild": "playwright test --headed=false"
   },
   "dependencies": {
     "@vue/test-utils": "^2.4.1",
