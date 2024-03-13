@@ -3,7 +3,7 @@
 // eslint-disable-next-line no-undef
 
 // @ts-ignore
-import { defineConfig, devices } from '@playwright/test'
+import { defineConfig } from '@playwright/test'
 /**
  * Read environment variables from file.
  * https://github.com/motdotla/dotenv
