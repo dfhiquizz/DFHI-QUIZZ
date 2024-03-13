@@ -8,7 +8,7 @@
     "test": "vitest",
     "coverage": "vitest run --coverage",
     "test:ui": "vitest --ui",
-    "preebuild": "eslint .",
+    "prebuild": "eslint .",
     "build": "vite build",
     "preview": "vite preview",
     "postbuild": "playwright test"
