@@ -34,6 +34,11 @@ const routes = [
     path: "/dfhi-quiz/:id",
     name: 'dfhi-quiz',
     component: () => import("../webpage/QuizPage.vue")
+  },
+  {
+    path: "/Score",
+    name: 'score',
+    component: () => import("../components/ScorePage.vue")
   }
 
 
