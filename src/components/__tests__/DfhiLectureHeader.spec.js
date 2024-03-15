@@ -16,6 +16,7 @@ describe('test AboutUs', () => {
     it('should render Tag and Attribute correctly', () => {
         expect(wrapper.find('h1').exists()).toBe(true);
         expect(inputSearch.exists()).toBe(true);
+        expect(wrapper.find('.homeIcon').exists()).toBe(true);
         expect(wrapper.find("h1").text()).toBe('DFHI-Quizz');
         expect(inputSearch.element.placeholder).toBe("Suche....");
     })

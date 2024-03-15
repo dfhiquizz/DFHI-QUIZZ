@@ -5,8 +5,8 @@ const routes = [
 
   {
     path: "/",
-    name: "WelcomePage",
-    component: () => import("../components/WelcomePage.vue"),
+    name: "HomePage",
+    component: () => import("../components/HomePage.vue"),
   },
   {
     path: "/Copyright",
@@ -26,14 +26,14 @@ const routes = [
   {
     path: "/AllQuiz",
     name: 'quizzes',
-    component: () => import("../webpage/DfhiQuizzes.vue"),
+    component: () => import("../webpage/ThemePage.vue"),
     //component: () => import("../pages/QuizzesPage.vue"),
   },
 
   {
     path: "/dfhi-quiz/:id",
     name: 'dfhi-quiz',
-    component: () => import("../webpage/DfhiQuiz.vue")
+    component: () => import("../webpage/QuizPage.vue")
   }
 
 

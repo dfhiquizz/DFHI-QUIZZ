@@ -1,5 +1,8 @@
 <template>
   <header>
+    <router-link class="homeIcon" to="/">
+        <img src="../../src/assets/home_theme.svg" title="to up" />
+      </router-link>
     <h1>DFHI-Quizz</h1>
     <input :value="modelValue" 
      @input="$emit('update:modelValue',
@@ -25,6 +28,11 @@ header {
   align-items: center;
   justify-content: center;
   background: #035d86;
+
+  .homeIcon {
+      
+
+    }
   h1 {
 
     font-weight: bold;
