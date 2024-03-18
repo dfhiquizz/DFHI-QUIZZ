@@ -11,7 +11,8 @@
     to = "/index.html"
     status = 200
  [context.deploy-preview]
- command = "npm run prebuild"
+ command = "npx playwright test -- parallel"
+ environment= {NODE_ENV = "test"}
 
 
   ## (optional) Settings for Netlify Dev
