@@ -10,6 +10,9 @@
   #  from = "/*"
     to = "/index.html"
     status = 200
+ [context.deploy-preview]
+ command = "npm run prebuild"
+
 
   ## (optional) Settings for Netlify Dev
   ## https://github.com/netlify/cli/blob/main/docs/netlify-dev.md#project-detection
